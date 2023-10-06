@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Yoruba Proverbs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .proverb-block {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="proverb-block" id="daily-proverb"></div>
+
+<script>
+    const proverbs = [
+        {
+            proverb: "Ilé obà t’o jó, èwà lo bùsi.",
+            translation: "When a king’s palace burns down, the re-built palace turns out even to be more beautiful.",
+            meaning: "Prolonged endurance is what yields elderly maturity."
+        },
+        {
+            proverb: "Bó ti wù kí ojú kan tóbi tó, ojú méjì sàn ju ojú kan lọ.",
+            translation: "No matter how big an eye is, two eyes are better than one.",
+            meaning: "This proverb teaches that team effort is superior, it is similar to the English proverb ‘two heads are better than one’."
+        },
+        {
+            proverb: "Bí a ò kú, ìṣe ò tán.",
+            translation: "Your palm (the result of your effort) cannot deceive you.",
+            meaning: "To avert disappointments, depend less on anyone; take responsibility for your life."
+        },
+        {
+            proverb: "Gbogbo alangba lo d’anu dele, a ko mo eyi t’inu nrun.",
+            translation: "All lizards lie prostrate, one cannot tell which one has a bellyache.",
+            meaning: "(Not provided)"
+        },
+        {
+            proverb: "Kò sí ęni tí ó ma gùn ęşin tí kò ní ju ìpàkó.",
+            translation: "(Not provided)",
+            meaning: "Your attitude towards your peers is determined by your status in life."
+        },
+        // ... more proverbs
+    ];
+
+    const date = new Date();
+    const index = date.getDate() % proverbs.length;
+    const proverb = proverbs[index];
+
+    const proverbBlock = document.getElementById('daily-proverb');
+    proverbBlock.innerHTML = `
+        <h2>Proverb: ${proverb.proverb}</h2>
+        <p>Translation: ${proverb.translation}</p>
+        <p>Meaning: ${proverb.meaning}</p>
+        <!-- You can add Transliteration, Etymology, and Linguistic Analysis sections here as you gather more data -->
+    `;
+</script>
+
+</body>
+</html>
