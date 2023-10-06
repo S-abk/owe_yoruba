@@ -1,8 +1,8 @@
-# owe_yoruba
+# Òwe Yoruba
 Yoruba Proverbs
 Proverbs are an essential aspect of many cultures, encapsulating wisdom, values, and traditional beliefs. They are typically passed down through generations and are often expressed in a poetic or metaphorical manner.
 
-In Yoruba culture, proverbs (or "ọrọ̀ àkéwì" in Yoruba language) are highly regarded and are considered the vehicle of wisdom. They're used to convey messages, advise, warn, or share life lessons and values. Here’s a step-by-step breakdown of the role and characteristics of Yoruba proverbs:
+In Yoruba culture, proverbs are highly regarded and are considered the vehicle of wisdom. They're used to convey messages, advise, warn, or share life lessons and values. Here’s a step-by-step breakdown of the role and characteristics of Yoruba proverbs:
 
 1. **Expression of Wisdom**:
    - Yoruba proverbs encapsulate the collective wisdom and teachings of the Yoruba people.
